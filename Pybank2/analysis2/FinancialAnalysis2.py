@@ -48,3 +48,20 @@ print(f"Total: ${net_total}")
 print(f"Average Change: ${round(average_change, 2)}")
 print(f"Greatest Increase in Profits: {greatest_increase[0]} (${greatest_increase[1]})")
 print(f"Greatest Decrease in Profits: {greatest_decrease[0]} (${greatest_decrease[1]})")
+result = 2 + 2
+# Define some results as a list
+results = [1, 2, 3, 4, 5]
+
+# Open a new text file for writing
+with open('results.txt', 'w') as file:
+    # Write the results to the file, one per line
+    for result in results:
+        file.write(str(result) + '\n')
+# Define some results as a list
+results = [1, 2, 3, 4, 5]
+
+# Open a new text file for writing
+with open('results.txt', 'w') as file:
+    # Write the results to the file, one per line
+    for result in results:
+        file.write(str(result) + '\n')
